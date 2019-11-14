@@ -16,6 +16,11 @@ const routes = [
                 name: 'UserController',
                 path: '',
                 component: loadView('userController')
+            },
+            {
+                name: 'KendaraanController',
+                path: 'vehicle',
+                component: loadView('kendaraanController')
             }
         ]
     },
